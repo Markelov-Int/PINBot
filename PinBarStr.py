@@ -25,8 +25,8 @@ from aiogram.types import (
 # ================== КОНФИГ =====================
 
 CONFIG = {
-    "BYBIT_API_KEY": "97rULdhG4td2XUaG8P",
-    "TELEGRAM_TOKEN": "7546983117:AAHBntLXI53yFvtPMNpZ9lzvYpGW1k5mrc4",
+    "BYBIT_API_KEY": "#",
+    "TELEGRAM_TOKEN": "#",
     "DEFAULT_TIMEFRAME": "60",      # по умолчанию 60m
     "LOOKBACK": 200,                # сколько свечей берем с биржи
     "BATCH_SIZE": 8,                # сколько монет сканируем параллельно
@@ -793,3 +793,4 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         print("Остановлено пользователем.")
+
